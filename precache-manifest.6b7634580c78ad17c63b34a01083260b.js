@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cb94f3d526cafd03571652e69ec940a9",
+    "revision": "0ee184ce7e2972b896b1114c30df0971",
     "url": "/automata-simulator/index.html"
   },
   {
