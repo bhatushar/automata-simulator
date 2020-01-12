@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: auto 1fr;
     grid-column-gap: 20px;
-    grid-template-areas: "title menu";
+    grid-template-areas: "title menu repo";
     background-color: #141413;
 }
 
@@ -33,6 +33,12 @@
     color: #c4c4c4;
     background: none;
     cursor: pointer;
+}
+
+#github {
+    grid-area: repo;
+    padding: 10px 0;
+    font-weight: bold;
 }
 
 .active {

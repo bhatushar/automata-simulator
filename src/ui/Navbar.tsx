@@ -37,6 +37,13 @@ class Navbar extends Component<NavbarProps> {
                         </button>
                     ) }
                 </div>
+                
+                <div id="github">
+                    <a href="https://github.com/bhatushar/automata-simulator"
+                        className="navbar-item active">
+                        GitHub Repository
+                    </a>
+                </div>
             </nav>
         );
     }
