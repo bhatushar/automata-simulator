@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="406f8a9b-0bc6-4025-8e14-eddcd4d58795" name="Default Changelist" comment="" />
+    <list default="true" id="406f8a9b-0bc6-4025-8e14-eddcd4d58795" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/tbhat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Colors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatons/Automata.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatons/DFA.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatons/NFA.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatons/PDA.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/automatons/TuringMachine.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Canvas.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/css/navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/css/sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,13 +40,58 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TVtVTba7Z3JH3n0gFGaYKLRSL7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="ts.external.directory.path" value="E:\Projects\automata-simulator\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\automata-simulator\src\automatons" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -33,6 +105,21 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -43,8 +130,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573557113819</updated>
-      <workItem from="1573557115506" duration="530000" />
+      <workItem from="1573557115506" duration="590000" />
+      <workItem from="1573557733922" duration="12918000" />
+      <workItem from="1573658879936" duration="5401000" />
+      <workItem from="1573734670492" duration="9551000" />
+      <workItem from="1573823110533" duration="18305000" />
+      <workItem from="1573965180399" duration="4213000" />
+      <workItem from="1574006217445" duration="10322000" />
+      <workItem from="1574086424179" duration="10992000" />
+      <workItem from="1574098923860" duration="133000" />
+      <workItem from="1574169325607" duration="3250000" />
+      <workItem from="1574185383090" duration="9077000" />
+      <workItem from="1574240751500" duration="1610000" />
+      <workItem from="1574248113076" duration="2177000" />
+      <workItem from="1578494015563" duration="9180000" />
+      <workItem from="1578554282120" duration="4600000" />
+      <workItem from="1578567046895" duration="3476000" />
+      <workItem from="1578579362487" duration="9680000" />
+      <workItem from="1578634803806" duration="1112000" />
+      <workItem from="1578638429302" duration="16676000" />
+      <workItem from="1578676975084" duration="186000" />
+      <workItem from="1578725909587" duration="6446000" />
+      <workItem from="1578745092595" duration="1448000" />
+      <workItem from="1578750219084" duration="972000" />
+      <workItem from="1578752285723" duration="2487000" />
+      <workItem from="1578755360915" duration="11848000" />
+      <workItem from="1578804690574" duration="22072000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

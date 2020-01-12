@@ -1,0 +1,40 @@
+/**
+    Contains styles for Navbar component.
+ */
+
+.navbar {
+    padding: 5px 10px;
+    grid-area: header;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 20px;
+    grid-template-areas: "title menu";
+    background-color: #141413;
+}
+
+.navbar-brand {
+    grid-area: title;
+    font-size:25px;
+    text-decoration: none;
+    color: #ebebeb;
+}
+
+.navbar-list {
+    grid-area: menu;
+    padding: 10px 0;
+}
+
+.navbar-item {
+    margin: auto 10px;
+    padding: 0 !important;
+    border: none;
+    font-size: 15px;
+    text-decoration: none;
+    color: #c4c4c4;
+    background: none;
+    cursor: pointer;
+}
+
+.active {
+    color: #ffffff;
+}
