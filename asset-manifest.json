@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/automata-simulator/static/css/main.3da08041.chunk.css",
-    "main.js": "/automata-simulator/static/js/main.2796aa91.chunk.js",
-    "main.js.map": "/automata-simulator/static/js/main.2796aa91.chunk.js.map",
+    "main.css": "/automata-simulator/static/css/main.1e0292d4.chunk.css",
+    "main.js": "/automata-simulator/static/js/main.6b1ee2c8.chunk.js",
+    "main.js.map": "/automata-simulator/static/js/main.6b1ee2c8.chunk.js.map",
     "runtime-main.js": "/automata-simulator/static/js/runtime-main.e635bf9d.js",
     "runtime-main.js.map": "/automata-simulator/static/js/runtime-main.e635bf9d.js.map",
     "static/js/2.3dede7a7.chunk.js": "/automata-simulator/static/js/2.3dede7a7.chunk.js",
     "static/js/2.3dede7a7.chunk.js.map": "/automata-simulator/static/js/2.3dede7a7.chunk.js.map",
     "index.html": "/automata-simulator/index.html",
-    "precache-manifest.5311f0ced421c5a70de8771da1d64080.js": "/automata-simulator/precache-manifest.5311f0ced421c5a70de8771da1d64080.js",
+    "precache-manifest.4a2f96f2c5206b54afbb892171afe245.js": "/automata-simulator/precache-manifest.4a2f96f2c5206b54afbb892171afe245.js",
     "service-worker.js": "/automata-simulator/service-worker.js",
-    "static/css/main.3da08041.chunk.css.map": "/automata-simulator/static/css/main.3da08041.chunk.css.map"
+    "static/css/main.1e0292d4.chunk.css.map": "/automata-simulator/static/css/main.1e0292d4.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.e635bf9d.js",
     "static/js/2.3dede7a7.chunk.js",
-    "static/css/main.3da08041.chunk.css",
-    "static/js/main.2796aa91.chunk.js"
+    "static/css/main.1e0292d4.chunk.css",
+    "static/js/main.6b1ee2c8.chunk.js"
   ]
 }
