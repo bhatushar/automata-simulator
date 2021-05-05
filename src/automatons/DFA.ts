@@ -79,6 +79,7 @@ export class DFA extends Automata implements AutomataAPI {
         let path: string = "";
         // state iterator; contains the name of the current state
         let state_i = this.initialState;
+        let result: "Accepted" | "Rejected" | undefined;
 
         for (let index = 0; index < input_arr.length; index++) {
             const i = input_arr[index];
@@ -91,12 +92,18 @@ export class DFA extends Automata implements AutomataAPI {
                 // Move to next state
                 state_i = walked[state_i][i];
             }
-            // No further transitions
-            else break;
+            else {
+                // No further transitions
+                result = "Rejected";
+                break;
+            }
         }
 
-        // If the loop wasn't terminated on an accepted state
-        let result = (this.acceptedStates.has(state_i)) ? "Accepted" : "Rejected";
+        if (result === undefined) {
+            // All input symbols were read and processed
+            // Input is accepted if last state is an accepted state
+            result = this.acceptedStates.has(state_i) ? "Accepted" : "Rejected";
+        }
         result += "\n\nPATH WALKED:\n" + path;
 
         // Update graph to indicate the transitions made
