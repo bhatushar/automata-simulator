@@ -40,7 +40,7 @@ class Navbar extends Component<NavbarProps> {
                 
                 <div id="github">
                     <a href="https://github.com/bhatushar/automata-simulator"
-                        className="navbar-item active">
+                        className="navbar-item">
                         GitHub Repository
                     </a>
                 </div>
