@@ -93,7 +93,9 @@ export class TuringMachine extends Automata implements AutomataAPI {
      * @param separator
      */
     public run(input: string, separator: '' | '\n'): {newGraph: GraphData, result: string} {
-        const input_arr = input.split(separator);
+        let input_arr = input.split(separator);
+        // If input tape is empty, store B to represent blank symbol
+        if (input_arr.length == 0) input_arr = [this.BLANK];
         // Input iterator
         let i = 0;
         // State iterator
